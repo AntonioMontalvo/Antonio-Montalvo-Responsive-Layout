@@ -11,11 +11,11 @@
 <body>
   <div class="wrapper"> <!--Sticky footer-->
     <header class="main-header">
-      <h1 class="my_name">Antonio Montalvo</h1>
+      <h1 class="my_name" id="top_page">Antonio Montalvo</h1>
       <ul class="main-nav">
-        <li>HOME</li>
-        <li>PORTFOLIO</li>
-        <li>CONTACT</li>
+        <li><a href="#top_page">HOME</a></li>
+        <li><a href="#content">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
     </header>
 
@@ -26,7 +26,7 @@
     </div>
 
     <div class="main-content">
-      <h2>PORTFOLIO</h2>
+      <h2 id="content">PORTFOLIO</h2>
 
         <img src="img/portfolio-1.png" alt="Front page icon" />
         <h3>Marketing Page</h3>
@@ -53,7 +53,7 @@
         </p>
     </div>
     <section class="contact-info">
-      <h3>CONTACT</h3>
+      <h3 id="contact">CONTACT</h3>
       <p>if you are interested in chatting or want more information about what i've been working on, I'd love to hear from you!
       </p>
       <ul>
@@ -67,7 +67,7 @@
     </section>
     <footer  class="my-name-footer">
       <h4>Antonio Montalvo</h4>
-      <h4>BACK TO TOP</h4>
+      <h4><a href="#top_page">BACK TO TOP</a></h4>
     </footer>
   </div>
 </body>
