@@ -6,8 +6,9 @@
 	box-sizing: border-box;
 }
 
+
 body {
-background:#f2f2f2;
+background: #f3f3f3;
 }
 
 a {
@@ -78,4 +79,33 @@ h2{
 .value {
 font-weight: 700;
 color:#808080;
+}
+
+/* =================================
+  NAVIGATION
+==================================== */
+
+.main-header,
+.my-name,
+.nav {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  color: #4d4d4d;
+	text-align: center;
+}
+.main-header h1 {
+	margin-bottom: 0.5em;
+}
+.nav ul {
+	background-color: green;
+}
+.nav li {
+	width: 310px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 11px;
+	background-color: #f8f8f8;
 }
