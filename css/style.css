@@ -197,6 +197,34 @@ letter-spacing: 0.025em
 }
 
 /* =================================
+GOALS
+==================================== */
+
+.added-content{
+display: flex;
+flex-direction: column;
+align-self: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+font-weight: bolder;
+color: #4d4d4d;
+text-align: center;
+padding-left: 2em;
+padding-right: 2em;
+}
+.added-content h3{
+
+}
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+/* =================================
 FOOTER
 ==================================== */
 
@@ -206,8 +234,8 @@ FOOTER
 	margin-right: 1em;
 	display:flex;
 	justify-content: space-between;
-
 }
+
 
 /* =================================
   Media Queries
@@ -215,10 +243,70 @@ FOOTER
 
 @media (min-width: 769px) {/*Specific behavior for media devices up to 769px*/
 
-  .wrap { /*sticky footer. The vh is a viewport height relative unit */
-  min-height: 100vh - 89px;
+
+
+.nav {
+display: flex;
+flex-direction: row;
 }
+.nav li {
+width: calc(100% - 20px);
+margin-left: 20px;
+margin-right: 20px;
+background: #f3f3f3;
 }
+.banner {
+	display:flex;
+	flex-direction: row-reverse;
+}
+.banner figure {
+	width: 90%;
+}
+
+.banner span {
+	margin-right: 10px;
+	text-align: left;
+	padding-top: 0;
+	font-size: 19px;
+}
+
+
+.left-col {
+	width: 50%;
+	float: left;
+
+}
+
+.right-col {
+	width: 50%;
+	float:right;
+
+}
+
+.contact-info p {
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+
+
+}
+
+@media (min-width: 1025px) { /*Specific behavior for media devices up to 1025px*/
+
+.main-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+
+
+}
+
 /* ---- Float clearfix ---- */
 
 .clearfix::after {
