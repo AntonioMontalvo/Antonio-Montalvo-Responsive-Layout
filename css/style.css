@@ -118,19 +118,28 @@ color:#808080;
 ==================================== */
 
 .banner {
-	display: flex;
-	flex-direction: column;
 	text-align: center;
 	padding: 2em 1em;
 }
 .banner span {
 	padding-top: 30px;
+	display: block;
 }
-.banner img {
- padding-left: 1.8em;
- padding-right: 1.8em;
 
+.image-background{
+	background-color: #fdf1cb;
+;
+	margin-left: 1em;
+	margin-right: 1em;
 }
+.banner img{
+	border-radius: 50%;
+	width: 50%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
 
 /* =================================
   MAIN CONTENT
@@ -200,7 +209,16 @@ FOOTER
 
 }
 
+/* =================================
+  Media Queries
+==================================== */
 
+@media (min-width: 769px) {/*Specific behavior for media devices up to 769px*/
+
+  .wrap { /*sticky footer. The vh is a viewport height relative unit */
+  min-height: 100vh - 89px;
+}
+}
 /* ---- Float clearfix ---- */
 
 .clearfix::after {
