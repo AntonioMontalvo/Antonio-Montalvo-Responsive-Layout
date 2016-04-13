@@ -244,21 +244,23 @@ FOOTER
 @media (min-width: 769px) {/*Specific behavior for media devices up to 769px*/
 
 
-
 .nav {
 display: flex;
 flex-direction: row;
 }
+
 .nav li {
 width: calc(100% - 20px);
 margin-left: 20px;
 margin-right: 20px;
 background: #f3f3f3;
 }
+
 .banner {
 	display:flex;
 	flex-direction: row-reverse;
 }
+
 .banner figure {
 	width: 90%;
 }
@@ -269,23 +271,27 @@ background: #f3f3f3;
 	padding-top: 0;
 	font-size: 19px;
 }
+.col{
+		width: 50%;
+		vertical-align: top;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+
+	.primary, .secondary{
+		display: inline-block;
+	}
+
+	.col:nth-child(2n+2){
+		margin-left: -5px;
+	}
 
 
-.left-col {
-	width: 50%;
-	float: left;
-
-}
-
-.right-col {
-	width: 50%;
-	float:right;
-
-}
 
 .contact-info p {
 	margin-left: 5em;
 	margin-right: 5em;
+
 }
 
 
@@ -293,6 +299,11 @@ background: #f3f3f3;
 }
 
 @media (min-width: 1025px) { /*Specific behavior for media devices up to 1025px*/
+	.body {
+			width: 90%;
+			max-width: 1150px;
+		}
+
 
 .main-header {
 	display: flex;
@@ -301,11 +312,25 @@ background: #f3f3f3;
 	padding-left: 1em;
 	padding-right: 1em;
 }
+.col{
+		width: 33.3%;
+		vertical-align: top;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
 
+	.primary, .secondary{
+		display: inline-block;
+	}
 
-
-
+	.col:nth-child(3n+3){
+		margin-left: -8px;
+	}
+	
 }
+
+
+
 
 /* ---- Float clearfix ---- */
 
