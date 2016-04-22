@@ -237,12 +237,20 @@ FOOTER
 }
 
 
+
+
+
+
 /* =================================
   Media Queries
 ==================================== */
 
 @media (min-width: 769px) {/*Specific behavior for media devices up to 769px*/
 
+	.body {
+				width: 90%;
+				max-width: 769px;
+			}
 
 .nav {
 display: flex;
@@ -326,7 +334,7 @@ background: #f3f3f3;
 	.col:nth-child(3n+3){
 		margin-left: -8px;
 	}
-	
+
 }
 
 
