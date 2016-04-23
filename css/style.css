@@ -235,6 +235,11 @@ FOOTER
 	display:flex;
 	justify-content: space-between;
 }
+.footer-nav {
+	display: none;
+}
+
+
 
 
 
@@ -246,8 +251,7 @@ FOOTER
 ==================================== */
 
 @media (min-width: 769px) {/*Specific behavior for media devices up to 769px*/
-
-	.body {
+.body {
 				width: 90%;
 				max-width: 769px;
 			}
@@ -294,13 +298,30 @@ background: #f3f3f3;
 		margin-left: -5px;
 	}
 
-
-
 .contact-info p {
 	margin-left: 5em;
 	margin-right: 5em;
-
 }
+
+.mobile-only {
+	display: none;
+}
+
+.footer-nav {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-nav li {
+	width: calc(100% - 20px);
+	margin-left: 20px;
+	margin-right: 20px;
+	background: #f3f3f3;
+	font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  color: #4d4d4d;
+}
+
 
 
 
