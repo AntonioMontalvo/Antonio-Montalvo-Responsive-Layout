@@ -8,12 +8,13 @@
 
 
 body {
-background: #f3f3f3;
+background: #effbfb;
 }
 
 a {
 	text-decoration: none;
 	color: #4d4d4d;
+	background: #effbfb;
 }
 
 a:hover {
@@ -21,33 +22,35 @@ a:hover {
 }
 
 span {
-font-family: 'PT Sans', sans-serif;
+font-family: 'Vollkorn', serif;
 color: #a6a6a6;
+font-style: italic;
 }
 
 h1,
 h2,
 h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family:'Arvo', serif;
   font-weight: bolder;
   color: #4d4d4d;
 }
 
 h3{
-  font-family: 'Open Sans', sans-serif;
+  font-family:'Arvo', serif;
   font-weight: 500;
   color: #4d4d4d;
 }
 
 p{
 	font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arvo', serif;
   font-weight: 300;
   color: #4d4d4d;
 }
 
 li{
   list-style: none;
+
 }
 
 .main-nav{
@@ -66,7 +69,7 @@ width: 100%;
 
 
 .contact-info h3{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Arvo', serif;
   font-weight: bolder;
   color: #4d4d4d;
 }
@@ -76,9 +79,10 @@ width: 100%;
 }
 
 .contact-info ul {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Arvo', serif;
 	font-weight: 400;
   color:#a6a6a6;
+
 }
 
 .value {
@@ -96,10 +100,11 @@ color:#808080;
 	display: flex;
 	flex-direction: column;
 	align-self: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Arvo', serif;
   font-weight: bolder;
   color: #4d4d4d;
 	text-align: center;
+
 }
 .main-header h1 {
 	margin-bottom: 0.5em;
@@ -146,7 +151,7 @@ color:#808080;
 ==================================== */
 
 .main-content {
-	background-color: #ffffff;
+	background-color: #C9F1F1;
 	text-align: center;
 	padding-bottom: 50px;
 	padding-top: 20px;
@@ -204,7 +209,7 @@ GOALS
 display: flex;
 flex-direction: column;
 align-self: center;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Arvo', serif;
 font-size: 20px;
 font-weight: bolder;
 color: #4d4d4d;
@@ -232,6 +237,7 @@ FOOTER
 	border-top: 1px solid #d0d0d0;
 	margin-left: 1em;
 	margin-right: 1em;
+	margin-top: 1em;
 	display:flex;
 	justify-content: space-between;
 }
@@ -317,7 +323,7 @@ background: #f3f3f3;
 	margin-left: 20px;
 	margin-right: 20px;
 	background: #f3f3f3;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Arvo', serif;
   font-weight: bolder;
   color: #4d4d4d;
 }
